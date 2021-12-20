@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header {
+    background-image: url(ustedes4.jpg);
+    background-size: cover;
+    padding: 400px 0;
+    background-position: center; 
+    position: relative;
+}
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 50px;
+    color: black;
+}
+
+a:hover, h2:hover, h4:hover, h3:hover, h5:hover {
+    color: blue;
+}
+
+/*HEADER*/
+
+.container-navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-flex-header {
+    display: flex;
+    justify-content: space-around;
+    margin: -400px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 20px;
+    color: #0F18F9;
+    text-shadow: 1px 1px 10px rgb(187, 182, 182);
+    font-weight: bold;
+}
+
+.button-nav {
+
+    font-weight: bold;
+    border: none;
+    background-color: transparent !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+.parrafo-header {
+    position: relative;
+}
+
+.p-absolute {
+    font-size: 48px;
+    max-width: 1200px;
+    position: absolute;
+    right: 350px;
+    bottom: 500px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.822);
+}
+
+
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 0px 10px 0px;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-dream {
+    color: #0F18F9;
+    font-size: 50px;
+}
+
+/* NAVBAR FIJO
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+*/
+
+/*HEADER*/
+
+
+/*EXPERIENCIAS*/
+
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
+
+.p-exp {
+    padding: 0px 40px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.img-exp{
+    max-width: 300px;
+}
+
+.contenedor-exp{
+    border: 1px solid white;    
+    box-shadow: 4px 5px 5px grey;
+    margin: 0px 500px 100px 500px;
+}
+
+.margen{
+    margin: 50px 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2-subtitulo {
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenedor-limite {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card-padding-paquetes {
+    padding: 0px 10px 15px 10px;
+    font-size: 20px;
+}
+
+.container-precio {
+    font-size: 30px;
+    color: white;
+    background-color: #0F18F9;
+    padding: 0px 5px;
+    margin: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.padding-paquetes-p {
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.carrousel-container {
+      
+    max-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.video {
+    text-align: center;
+}
+
+
+.carrousel-container img {   
+    width: 600px;
+    height: 400px;
+}
+
+.slick-prev::before, .slick-next::before {
+    color: blue !important;
+}
+
+/*SECTION*/
+
+.container-limit {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+/*SECTION*/
+
+/*EXPERIENCIAS*/
+
+
+/*CONTACTO*/
+
+/*FOOTER*/
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgba(212, 210, 235, 0.671);
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pie-pagina .group-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1, .box2 {
+    margin-top: 20px;
+}
+
+.box1 {
+    max-width: 600px;
+}
+
+.box2 a {
+    max-width: 500px;
+}
+.red-social a {
+    margin: 20px 0px 0px 3px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+}
+
+.group-2 {
+    padding: 50px;
+}
+/*FOOTER*/
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 1024px) {
+
+    .p-absolute{
+        right: 50px;
+        bottom: 500px;
+        text-align: center; 
+    }
+
+    .contenedor-limite {
+        max-width: 950px;
+    }
+
+    .carrousel-container {
+        max-width: 950px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-absolute {
+        font-size: 0;
+    }
+
+    .p-dream {
+        font-size: 0;
+    }
+
+    header {
+        background-image: none;
+        padding: 60px;
+    }
+
+    .contenedor-limite {
+        max-width: 560px;
+    }
+
+    .flex-center {
+        flex-direction: column;
+    }
+
+    .carrousel-container {
+      
+        max-width: 576px;
+        height: 400px;
+        margin: 0 auto;
+        box-shadow: 2px 2px 8px gray;
+    }
+}

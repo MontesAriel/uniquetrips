@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="experiencias.css">
+    <script src="https://kit.fontawesome.com/4db3f232fb.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>Unique Trips</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-relative">
+        <nav class="navbar">
+            <div class="container-navbar">
+                <ul class="navbar-ul">
+                    <li><a href="index.html" class="logo">Unique Trips</a></li>
+                    <li><a href="informacion.html" class="navbar-position">Info</a></li>
+                    <li><a href="paquetes.html" class="navbar-position">Paquetes</a></li>
+                    <li><a href="festivales.html" class="navbar-position">Festivales</a></li>
+                    <li><a href="experiencias.html" class="navbar-position">Experiencias</a></li>
+                    <li><button class="button-nav">Iniciar Sesión</button></li>
+                </ul>
+            </div>     
+        </nav>
+
+        <div  class="p-absolute">
+            <p>Gracias a ustedes, nosotros podemos <span class="p-dream">soñar</span></p>
+        </div>
+        </div>
+    </header>
+
+    <main>
+
+         <section>
+            <h2 class="margen h2-subtitulo">Experiencias</h2>
+            <div class="contenedor-limite">
+                <div class="margen flex-center contenedor-exp">
+                    <aside>
+                        <img src="mujer.jpg" alt="Experiencia de viaje" class="img-exp">
+                    </aside>
+
+                    <section>
+                        <h3>Victoria, 37 años.</h3>
+                        <h4>Viajó a Bariloche, Mendoza, Salta.</h4>
+                        <p class="p-exp">Viajé 3 veces con Unique Trips, cada destino fue una experiencia única. Además de los viajes, conocí personas en las cuales seguimos compartiendo momentos.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <section>
+                <h2 class="margen h2-subtitulo">Fotos</h2>
+            </section>
+            <aside>
+                <div class="carrousel-container">
+                    <div class="autoplay">
+                        <div>
+                            <img src="ustedes.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="ustedes1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="ustedes3.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="ustedes5.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="ustedes6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <section>
+            <h2 class="margen h2-subtitulo">Videos</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tHrhBYOdZsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video">
+                </iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MEclZYCwoDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>                    
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="margen h2-subtitulo">Bloopers</h2>
+            <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g21nfu5EW5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>                
+            </iframe>
+            </div>
+        </section>
+
+
+      
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+
+        <script>
+
+                 
+                 $('.autoplay').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            });
+        </script>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="container-limit">
+            <div class="group-1">
+                <div class="box1">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Para nosotros, viajar es mucho más que visitar un nuevo destino: es hacer nuevos amigos y vivir momentos inolvidables. Por eso nos gustaría compartir esta experiencia con VOS.</p>
+                </div>
+                <div class="box2">
+                <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://youtu.be/LFuNMxU3cDM" class="fa fa-youtube">Youtube</a>
+                        <a href="https://www.instagram.com/arieelmontes/?hl=es-la" class="fa fa-instagram">Instagram</a>
+                        <a href="https://www.linkedin.com/in/montesariel/" class="fab fa-linkedin">Linkedin</a>
+                        <a href=" https://wa.me/+5491153394887?text=Quisiera%20información%20de%20los%20paquetes%20disponibles" class="fab fa-whatsapp">Whatsapp</a>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="group-2">
+                <small>&copy; 2021 <b>Unique Trips</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>    

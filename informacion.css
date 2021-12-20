@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 50px;
+    color: black;
+}
+
+a:hover, h2:hover, h4:hover, h3:hover, h5:hover {
+    color: blue;
+}
+
+
+.container-navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-flex-header {
+    display: flex;
+    justify-content: space-around;
+    margin: -400px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 20px;
+    color: #0F18F9;
+    text-shadow: 1px 1px 10px rgb(187, 182, 182);
+    font-weight: bold;
+}
+
+.button-nav {
+
+    font-weight: bold;
+    border: none;
+    background-color: transparent !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+.parrafo-header {
+    position: relative;
+}
+
+.p-absolute {
+    font-size: 70px;
+    max-width: 300px;
+    position: absolute;
+    right: 420px;
+    bottom: 150px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(221, 221, 221, 0.767);
+}
+
+
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 0px 10px 0px;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.navbar > ul
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 300px;
+}
+*/
+
+
+/* HEADER */
+
+/*GENERAL*/
+
+
+
+/* MAIN INFO*/
+
+.h2-subtitulo {
+    text-align: center;
+    font-size: 35px;
+}
+
+.conteiner-limit-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 4px 5px 5px grey;
+    margin-top: 100px;
+}
+
+.conteiner-flex-info {
+    display: flex;
+    justify-content: center;
+}
+
+.img-info {
+    width: 500px;
+    height: 300px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ul-info {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.ul-info > li {
+    margin-bottom: 15px;
+}
+
+
+/* MAIN INFO*/
+
+
+/*CONTACTO*/
+
+/*FOOTER*/
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgba(212, 210, 235, 0.671);
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pie-pagina .group-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1, .box2 {
+    margin-top: 20px;
+}
+
+.box1 {
+    max-width: 600px;
+}
+
+.box2 a {
+    max-width: 500px;
+}
+.red-social a {
+    margin: 20px 0px 0px 3px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+}
+
+.group-2 {
+    padding: 50px;
+}
+/*FOOTER*/
+
+/*CONTACTO*/
+
+.conteiner-contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.font-h5-contact {
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.contact {
+    box-shadow: 0 0 20px grey; 
+    display: flex;
+    width: 900px;
+}
+
+.contact-info {
+    box-shadow: 0 0 20px grey;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    width: 30%;
+
+}
+
+
+.contact-info h5 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+}
+
+.contact-info ul {
+    flex-direction: column;
+}
+
+.contact-info li {
+    margin: 5px 0px;
+}
+
+
+.contact-form form {
+    padding: 20px 20px;
+    margin: 10px;
+}
+
+.contact-form {
+    width: 70%;    
+}
+
+.contact-info a {
+    margin: 5px 0px 5px 5px;
+}
+
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+    padding: 10px 10px;
+    width: 100%;
+
+}
+
+.contact-form form button {
+   background: blue;
+   color: white;
+   text-transform: uppercase;
+   padding: 10px;
+   font-size: 15px;
+   font-weight: bold;
+   margin: 15px 0px 0px 0px;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: rgb(0, 81, 255);
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+/*CONTACTO*/
+
+
+/*RESPONSIVE*/
+
+
+@media (max-width: 576px) {
+    .conteiner-flex-info {
+        flex-direction: column;
+    }
+
+    .navbar-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header {
+        padding: 60px;
+    }
+}
+
